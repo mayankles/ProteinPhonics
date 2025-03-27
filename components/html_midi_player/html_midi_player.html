@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>HTML MIDI Player</title>
+  <!-- Load the html-midi-player library from a CDN -->
+  <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.5.0"></script>
+  <style>
+    /* Optional styling for the player */
+    html-midi-player {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- The custom element from the html-midi-player library. -->
+  <!-- The src attribute uses our placeholder that will be replaced by the Python wrapper. -->
+  <midi-player
+    src="%%MIDI_FILE_URL%%"
+    sound-font visualizer="#myVisualizer">
+  </midi-player>
+  <midi-visualizer type="staff" id="myVisualizer"></midi-visualizer>
+</body>
+</html>

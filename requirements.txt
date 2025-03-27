@@ -1,0 +1,6 @@
+streamlit>=1.0
+requests>=2.25
+biopython>=1.78
+pretty_midi>=0.2.9
+SQLAlchemy>=1.4
+pyfluidsynth>=1.2.0
