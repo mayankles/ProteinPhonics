@@ -1,3 +1,5 @@
+lol this is absolutely a boilerplate chatgpt readme for now, imma write something real (i.e. brainstormed with chatgpt for like more than a couple minutes) when I get a chance!
+
 # ProteinPhonics
 
 ProteinPhonics is a web application that transforms protein sequence data into interactive MIDI music compositions using biological data. The project integrates sequence fetching from Ensembl, multiple sequence alignment, MIDI generation, and audio playback with a custom Tone.js interface, all wrapped in an interactive Streamlit app.
